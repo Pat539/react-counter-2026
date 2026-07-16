@@ -13,7 +13,7 @@ export default defineConfig({
         enabled: true,
       },
       injectRegister: "auto",
-      includeAssets: ["favicon.svg", "hero.png"],
+      includeAssets: ["/src/assets/hero.png"],
       manifest: {
         name: "PWA REACT AND VITE",
         short_name: "PWA REACT",
