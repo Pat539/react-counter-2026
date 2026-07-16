@@ -13,7 +13,7 @@ export default defineConfig({
         enabled: true,
       },
       injectRegister: "auto",
-      includeAssets: ["/src/assets/hero.png"],
+      includeAssets: ["public"],
       manifest: {
         name: "PWA REACT AND VITE",
         short_name: "PWA REACT",
@@ -21,7 +21,7 @@ export default defineConfig({
         theme_color: "#c9c3c3",
         icons: [
           {
-            src: "/src/assets/hero.png",
+            src: "/hero.png",
             sizes: "192x192",
             type: "image/svg+xml",
           },
